@@ -31,6 +31,7 @@ const products = [
 products.map((dataObj, id) => {
   console.log(dataObj.name, dataObj.price, dataObj.rating);
 });
+
 console.log("===============================================================");
 // For-Loop
 for (let i = 0; i < products.length; i++) {
@@ -40,3 +41,5 @@ console.log("===============================================================");
 products.forEach(product => {
   console.log(product.name, product.price, product.rating);
 });
+
+const isHandsome = true; // ini adalah boolean
