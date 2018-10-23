@@ -43,3 +43,5 @@ products.forEach(product => {
 });
 
 const isHandsome = true; // ini adalah boolean
+
+const arrayNew = [1, 2, 3, 4];
