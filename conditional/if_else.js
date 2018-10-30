@@ -6,7 +6,7 @@
 
 // conditional with if - else
 const peopleName = "ABC";
-const age = '35';
+const age = "35";
 const profile = {
   name: "DEF",
   phone: "123456789"
@@ -22,6 +22,6 @@ if (age === 17) {
   console.log(`Guess my age!`);
 } else if (age == 35 || age === "35") {
   console.log(`....`);
-}else{
-    console.log(`ABCDEFGHI`);
+} else {
+  console.log(`ABCDEFGHI`);
 }
